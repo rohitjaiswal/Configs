@@ -16,7 +16,7 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.dirtyunicorns.tweaks.preferences.GlobalSettingSwitchPreference
+    <com.codeos.configs.preferences.GlobalSettingSwitchPreference
         android:key="heads_up_notifications_enabled"
         android:title="@string/heads_up_title"
         android:summaryOn="@string/heads_up_summary_enabled"

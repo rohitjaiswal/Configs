@@ -18,12 +18,12 @@
 
     <com.android.settings.applications.LayoutPreference
         android:key="buttons_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.Buttons"
+        android:fragment="com.codeos.configs.fragments.Buttons"
         android:layout="@layout/buttons" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="navigation_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.NavigationBar"
+        android:fragment="com.codeos.configs.fragments.NavigationBar"
         android:layout="@layout/navigationbar" />
 
 </PreferenceScreen>

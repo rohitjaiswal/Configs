@@ -20,18 +20,18 @@
         android:key="device_extras_category"
         android:layout="@layout/device_extras">
         <intent android:action="com.android.settings.action.EXTRA_SETTINGS"
-            android:targetPackage="com.dirtyunicorns.settings.device"
-            android:targetClass="com.dirtyunicorns.settings.device.TouchscreenGestureSettings" />
+            android:targetPackage="com.codeos.settings.device"
+            android:targetClass="com.codeos.settings.device.TouchscreenGestureSettings" />
     </com.android.settings.applications.LayoutPreference>
 
     <com.android.settings.applications.LayoutPreference
         android:key="miscellaneous_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.Miscellaneous"
+        android:fragment="com.codeos.configs.fragments.Miscellaneous"
         android:layout="@layout/miscellaneous" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="powermenu_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.PowerMenu"
+        android:fragment="com.codeos.configs.fragments.PowerMenu"
         android:layout="@layout/powermenu" />
 
 </PreferenceScreen>

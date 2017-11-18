@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/navigation"/>
 
-    <com.dirtyunicorns.tweaks.navigation.BottomNavigationViewCustom
+    <com.codeos.configs.navigation.BottomNavigationViewCustom
         android:id="@+id/navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

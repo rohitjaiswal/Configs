@@ -28,20 +28,20 @@
         android:key="qs_layout_category"
         android:title="@string/qs_layout_category">
 
-        <com.dirtyunicorns.tweaks.preferences.CustomSeekBarPreference
+        <com.codeos.configs.preferences.CustomSeekBarPreference
             android:key="qs_layout_columns"
             android:title="@string/qs_columns_title"
             settings:min="3" />
 
     </PreferenceCategory>
 
-    <com.dirtyunicorns.tweaks.preferences.SecureSettingSwitchPreference
+    <com.codeos.configs.preferences.SecureSettingSwitchPreference
         android:key="qs_tile_title_visibility"
         android:title="@string/qs_tile_title_visibility_title"
         android:summary="@string/qs_tile_title_visibility_summary"
         android:defaultValue="true"/>
 
-    <com.dirtyunicorns.tweaks.preferences.SystemSettingSwitchPreference
+    <com.codeos.configs.preferences.SystemSettingSwitchPreference
         android:key="qs_show_brightness_icon"
         android:title="@string/brightness_icon_title"
         android:summary="@string/brightness_icon_summary"

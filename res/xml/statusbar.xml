@@ -18,17 +18,17 @@
 
     <com.android.settings.applications.LayoutPreference
         android:key="battery_options_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.BatteryOptions"
+        android:fragment="com.codeos.configs.fragments.BatteryOptions"
         android:layout="@layout/battery_options" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="carrier_label_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.CarrierLabel"
+        android:fragment="com.codeos.configs.fragments.CarrierLabel"
         android:layout="@layout/carrier_label" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="clock_options_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.ClockOptions"
+        android:fragment="com.codeos.configs.fragments.ClockOptions"
         android:layout="@layout/clock_options" />
 
     <com.android.settings.applications.LayoutPreference
@@ -41,17 +41,17 @@
 
     <com.android.settings.applications.LayoutPreference
         android:key="notifications_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.Notifications"
+        android:fragment="com.codeos.configs.fragments.Notifications"
         android:layout="@layout/notifications" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="quick_settings_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.QuickSettings"
+        android:fragment="com.codeos.configs.fragments.QuickSettings"
         android:layout="@layout/quicksettings" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="traffic_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.TrafficIndicators"
+        android:fragment="com.codeos.configs.fragments.TrafficIndicators"
         android:layout="@layout/traffic" />
 
 </PreferenceScreen>

@@ -1,4 +1,7 @@
-Dirty Tweaks
+CodeOS Configs
+
+It is taken from Dirty Unicorns Project...
+
 ==============
 
 A flexible, easy to use, all in one tweaks app for AOSP!

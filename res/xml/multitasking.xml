@@ -18,17 +18,17 @@
 
     <com.android.settings.applications.LayoutPreference
         android:key="headsup_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.HeadsUp"
+        android:fragment="com.codeos.configs.fragments.HeadsUp"
         android:layout="@layout/headsup" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="recents_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.Recents"
+        android:fragment="com.codeos.configs.fragments.Recents"
         android:layout="@layout/recents" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="ticker_category"
-        android:fragment="com.dirtyunicorns.tweaks.fragments.Ticker"
+        android:fragment="com.codeos.configs.fragments.Ticker"
         android:layout="@layout/ticker" />
 
 </PreferenceScreen>
